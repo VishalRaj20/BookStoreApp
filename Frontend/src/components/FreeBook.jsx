@@ -11,7 +11,7 @@ function FreeBook({query}) {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/books");
+        const res = await axios.get("https://bookstoreapp-backend-s8hx.onrender.com/books");
         const filteredBooks = res.data.filter((data) => data.name?.toLowerCase().includes(query)&& data.category == "Free");
         setBook(filteredBooks);
         console.log(filteredBooks);
