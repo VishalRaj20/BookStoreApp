@@ -1,9 +1,11 @@
-# Realtime Responsive 💬Chat App
+# Responsive Book Store App
 
 <img src="https://github.com/VishalRaj20/BookStoreApp/blob/b96efe98c7652104593889af2c9dc504c69880b7/Frontend/public/BookStore%20DarkMode.png" alt="Book Store App Ui Preview" />
 <img src="https://github.com/VishalRaj20/BookStoreApp/blob/b96efe98c7652104593889af2c9dc504c69880b7/Frontend/public/bookstore.png" alt="Book Store App DarkMode UI Preview" />
 
-This is a real-time chat application where users can connect, chat in private or groups, and enjoy a modern messaging experience. The project focuses on building a scalable and intuitive communication platform using the latest web technologies.
+• This is online platform featuring 250+ books across 15+ genres, improving access to digital reading.
+• Built a fully functional and responsive UI using React.js and Tailwind CSS, enhancing user experience and accessibility.
+• Integrated Express.js and Node.js for efficient backend operations, secure authentication, and seamless book managemen
 
 ---
 
@@ -14,8 +16,8 @@ This is a real-time chat application where users can connect, chat in private or
   - JWT-based session management
 
 - 💬 **One-to-One Chat**
-  - Real-time private messaging
-  - Seen/unseen message indicators
+  - Free and paid Books available 
+  - Unlimited time access
     
 ---
 
