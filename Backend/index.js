@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import bookRoute from "./route/book.route.js";
 import cors from "cors";
 import userRoute from "./route/User.route.js";
+import paymentRoutes from "./route/payment.route.js";
 
 dotenv.config(); // Load environment variables early
 
@@ -37,6 +38,8 @@ app.get("/",(req,res)=>{
 })
 app.use("/books", bookRoute);
 app.use("/user", userRoute);
+app.use("/payment", paymentRoutes);
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

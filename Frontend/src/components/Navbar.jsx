@@ -46,6 +46,11 @@ function Navbar({setQuery}) {
       <li>
         <a className="font-bold text-lg" href="/course">Course</a>
       </li>
+      {authUser && (
+        <li>
+          <a className="font-bold text-lg" href="/my-books">My Books</a>
+        </li>
+      )}
       <li>
         <a className="font-bold text-lg" href="/contact">Contact</a>
       </li>

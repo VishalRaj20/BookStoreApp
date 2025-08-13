@@ -5,7 +5,8 @@
     "title": "Classic Tales: Timeless Stories",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
   },
   {
     "id": 3,
@@ -13,7 +14,8 @@
     "title": "The Enchanted Forest: A Fantasy Novel",
     "price": 14.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
   },
   {
     "id": 4,
@@ -21,7 +23,8 @@
     "title": "The Guitarist's Handbook: Mastering Chords",
     "price": 12.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.infobooks.org/pdfview/music-glossary-pdf/"
   },
   {
     "id": 5,
@@ -29,7 +32,8 @@
     "title": "Fairy Tales from Around the World",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/2591/2591-h/2591-h.htm"
   },
   {
     "id": 6,
@@ -37,7 +41,8 @@
     "title": "Basketball Basics: A Beginner's Guide",
     "price": 22.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/28464/28464-h/28464-h.htm"
   },
   {
     "id": 7,
@@ -45,7 +50,8 @@
     "title": "The Lost City: A Tale of Adventure",
     "price": 16.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/120/120-h/120-h.htm"
   },
   {
     "id": 8,
@@ -53,7 +59,8 @@
     "title": "Piano Mastery: Techniques and Tips",
     "price": 11.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.infobooks.org/pdfview/the-basic-elements-of-music-pdf/"
   },
   {
     "id": 9,
@@ -61,7 +68,8 @@
     "title": "Animal Fables: Lessons from Nature",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/19994/19994-h/19994-h.htm"
   },
   {
     "id": 10,
@@ -69,7 +77,8 @@
     "title": "Soccer Strategies: Winning the Game",
     "price": 24.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/14477/14477-h/14477-h.htm"
   },
   {
     "id": 11,
@@ -77,47 +86,53 @@
     "title": "The Forgotten Realm: A Fantasy Novel",
     "price": 17.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
   },
   {
     "id": 12,
     "name": "Music Book",
-    "title": "The Drummer's Guide to Rhythm",
+    "title": "Vocal Training: Finding Your Voice",
     "price": 13.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/18354/18354-h/18354-h.htm"
   },
   {
     "id": 13,
     "name": "Story Book",
-    "title": "Ghost Stories: Tales of the Supernatural",
+    "title": "Bedtime Stories for Children",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/17034/17034-h/17034-h.htm"
   },
   {
     "id": 14,
     "name": "Sport Book",
-    "title": "The Tennis Player's Guide",
-    "price": 26.99,
+    "title": "Tennis Fundamentals: Serve and Return",
+    "price": 21.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/10490/10490-h/10490-h.htm"
   },
   {
     "id": 15,
     "name": "Fiction Book",
-    "title": "The Time Traveler's Journal",
-    "price": 18.99,
+    "title": "The Time Traveler's Dilemma",
+    "price": 15.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/35/35-h/35-h.htm"
   },
   {
     "id": 16,
     "name": "Music Book",
-    "title": "The Bassist's Handbook",
-    "price": 14.99,
+    "title": "Drumming Basics: Rhythm and Technique",
+    "price": 10.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/21643/21643-h/21643-h.htm"
   },
   {
     "id": 17,
@@ -125,7 +140,8 @@
     "title": "Adventures in the Wild: Survival Stories",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/2228/2228-h/2228-h.htm"
   },
   {
     "id": 18,
@@ -133,7 +149,8 @@
     "title": "The Golfer's Guide to the Green",
     "price": 28.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/66397/66397-h/66397-h.htm"
   },
   {
     "id": 19,
@@ -141,7 +158,8 @@
     "title": "The Shadow of the Past: A Thriller",
     "price": 19.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
   },
   {
     "id": 20,
@@ -149,87 +167,98 @@
     "title": "The Flutist's Companion",
     "price": 15.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/19499/19499-h/19499-h.htm"
   },
   {
     "id": 21,
     "name": "Story Book",
-    "title": "Mythical Creatures: Legends and Lore",
+    "title": "Mythical Creatures: A Guide",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/41941/41941-h/41941-h.htm"
   },
   {
     "id": 22,
     "name": "Sport Book",
-    "title": "The Boxer's Training Manual",
-    "price": 29.99,
+    "title": "Swimming Techniques for Beginners",
+    "price": 20.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/26290/26290-h/26290-h.htm"
   },
   {
     "id": 23,
     "name": "Fiction Book",
-    "title": "The Starry Night: A Space Odyssey",
-    "price": 20.99,
+    "title": "The Space Explorer's Journey",
+    "price": 16.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/62/62-h/62-h.htm"
   },
   {
     "id": 24,
     "name": "Music Book",
-    "title": "The Saxophonist's Guide",
-    "price": 16.99,
+    "title": "Violin Mastery: A Complete Guide",
+    "price": 12.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/15535/15535-h/15535-h.htm"
   },
   {
     "id": 25,
     "name": "Story Book",
-    "title": "Tales of the Sea: Maritime Adventures",
+    "title": "Folktales from Around the Globe",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/7439/7439-h/7439-h.htm"
   },
   {
     "id": 26,
     "name": "Sport Book",
-    "title": "The Runner's Handbook",
-    "price": 30.99,
+    "title": "Cycling Essentials: Road and Mountain",
+    "price": 25.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/22550/22550-h/22550-h.htm"
   },
   {
     "id": 27,
     "name": "Fiction Book",
-    "title": "The Forgotten Island: A Mystery",
-    "price": 21.99,
+    "title": "The Wizard's Apprentice",
+    "price": 18.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/43/43-h/43-h.htm"
   },
   {
     "id": 28,
     "name": "Music Book",
-    "title": "The Trumpeter's Guide",
-    "price": 17.99,
+    "title": "The Flutist's Companion",
+    "price": 14.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/33358/33358-h/33358-h.htm"
   },
   {
     "id": 29,
     "name": "Story Book",
-    "title": "Fables of the Forest: Nature's Wisdom",
+    "title": "Heroes of History: True Stories",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/16607/16607-h/16607-h.htm"
   },
   {
     "id": 30,
     "name": "Sport Book",
-    "title": "The Skier's Companion",
-    "price": 31.99,
+    "title": "Marathon Training: A Complete Guide",
+    "price": 27.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/14851/14851-h/14851-h.htm"
   },
   {
     "id": 31,
@@ -237,7 +266,8 @@
     "title": "The Hidden City: A Fantasy Adventure",
     "price": 22.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/421/421-h/421-h.htm"
   },
   {
     "id": 32,
@@ -245,7 +275,8 @@
     "title": "The Cellist's Handbook",
     "price": 18.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/20107/20107-h/20107-h.htm"
   },
   {
     "id": 33,
@@ -253,7 +284,8 @@
     "title": "Legends of the Sky: Celestial Tales",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/2097/2097-h/2097-h.htm"
   },
   {
     "id": 34,
@@ -261,7 +293,8 @@
     "title": "The Climber's Guide to Peaks",
     "price": 32.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/6573/6573-h/6573-h.htm"
   },
   {
     "id": 35,
@@ -269,7 +302,8 @@
     "title": "The Lost Treasure: A Pirate's Tale",
     "price": 23.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/23661/23661-h/23661-h.htm"
   },
   {
     "id": 36,
@@ -277,7 +311,8 @@
     "title": "The Harpist's Companion",
     "price": 19.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/30532/30532-h/30532-h.htm"
   },
   {
     "id": 37,
@@ -285,7 +320,8 @@
     "title": "Tales of the Desert: Sands of Time",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/37260/37260-h/37260-h.htm"
   },
   {
     "id": 38,
@@ -293,7 +329,8 @@
     "title": "The Swimmer's Guide to Endurance",
     "price": 33.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/26008/26008-h/26008-h.htm"
   },
   {
     "id": 39,
@@ -301,7 +338,8 @@
     "title": "The Enchanted Garden: A Fairy Tale",
     "price": 24.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/17208/17208-h/17208-h.htm"
   },
   {
     "id": 40,
@@ -309,7 +347,8 @@
     "title": "The Pianist's Art",
     "price": 20.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/15000/15000-h/15000-h.htm"
   },
   {
     "id": 101,
@@ -317,7 +356,8 @@
     "title": "Myths of the Moon: Lunar Legends",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/28696/28696-h/28696-h.htm"
   },
   {
     "id": 102,
@@ -325,7 +365,8 @@
     "title": "The Archer's Handbook",
     "price": 34.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/50551/50551-h/50551-h.htm"
   },
   {
     "id": 103,
@@ -333,7 +374,8 @@
     "title": "The Timekeeper's Journal",
     "price": 25.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/76/76-h/76-h.htm"
   },
   {
     "id": 104,
@@ -341,7 +383,8 @@
     "title": "The Vocalist's Guide",
     "price": 21.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/26233/26233-h/26233-h.htm"
   },
   {
     "id": 105,
@@ -349,7 +392,8 @@
     "title": "Tales of the Mountains: High Adventures",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/10736/10736-h/10736-h.htm"
   },
   {
     "id": 106,
@@ -357,7 +401,8 @@
     "title": "The Hiker's Guide to Trails",
     "price": 35.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/43649/43649-h/43649-h.htm"
   },
   {
     "id": 107,
@@ -365,7 +410,8 @@
     "title": "The Forgotten Kingdom: A Fantasy",
     "price": 26.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/2525/2525-h/2525-h.htm"
   },
   {
     "id": 108,
@@ -373,7 +419,8 @@
     "title": "The Composer's Handbook",
     "price": 22.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/28056/28056-h/28056-h.htm"
   },
   {
     "id": 109,
@@ -381,7 +428,8 @@
     "title": "Legends of the Stars: Cosmic Tales",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/28521/28521-h/28521-h.htm"
   },
   {
     "id": 110,
@@ -389,7 +437,8 @@
     "title": "The Surfer's Guide to Waves",
     "price": 36.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1579952363878-3f3baf6cb500?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/25545/25545-h/25545-h.htm"
   },
   {
     "id": 111,
@@ -397,7 +446,8 @@
     "title": "The Hidden Realm: A Fantasy Adventure",
     "price": 27.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/72/72-h/72-h.htm"
   },
   {
     "id": 112,
@@ -405,7 +455,8 @@
     "title": "The DJ's Handbook",
     "price": 23.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/21649/21649-h/21649-h.htm"
   },
   {
     "id": 113,
@@ -413,7 +464,8 @@
     "title": "Fables of the Forest: Nature's Wisdom",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/19994/19994-h/19994-h.htm"
   },
   {
     "id": 114,
@@ -421,7 +473,8 @@
     "title": "The Skier's Companion",
     "price": 37.99,
     "category": "Sport",
-    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/12098/12098-h/12098-h.htm"
   },
   {
     "id": 115,
@@ -429,7 +482,8 @@
     "title": "The Hidden City: A Fantasy Adventure",
     "price": 28.99,
     "category": "Fiction",
-    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/32/32-h/32-h.htm"
   },
   {
     "id": 116,
@@ -437,7 +491,8 @@
     "title": "The Cellist's Handbook",
     "price": 24.99,
     "category": "Music",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/20107/20107-h/20107-h.htm"
   },
   {
     "id": 117,
@@ -445,7 +500,8 @@
     "title": "Legends of the Sky: Celestial Tales",
     "price": 0,
     "category": "Free",
-    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    "content": "https://www.gutenberg.org/files/28858/28858-h/28858-h.htm"
   },
   {
     "id": 118,
