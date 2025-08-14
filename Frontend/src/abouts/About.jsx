@@ -9,7 +9,7 @@ function About() {
         <div className="flex flex-col items-center text-center mb-8">
           <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-pink-500 mb-4">
             <img
-              src="public\portifolio.png"
+              src="public\profile.png"
               alt="Vishal Raj"
               className="w-full h-full object-cover"
             />
