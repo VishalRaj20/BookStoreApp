@@ -15,17 +15,27 @@ const razorpay = new Razorpay({
 
 export const createOrder = async (req, res) => {
     try {
+        const { amount, userId, bookId } = req.body;
+
+        if (amount <= 0) {
+            await PurchasedBook.create({ userId, bookId, paymentId: "FREE" });
+            return res.json({ success: true, free: true });
+        }
+
         const options = {
-            amount: req.body.amount * 100,
+            amount: amount * 100,
             currency: "INR",
             receipt: `receipt_${Date.now()}`
         };
         const order = await razorpay.orders.create(options);
         res.json(order);
     } catch (err) {
+        console.error("Create order error:", err); // helpful debug
         res.status(500).json({ error: err.message });
     }
 };
+
+
 
 export const verifyPayment = async (req, res) => {
     try {
@@ -53,4 +63,14 @@ export const getPurchasedBooks = async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
+};
+
+export const removePurchasedBook = async (req, res) => {
+  try {
+    const { userId, bookId } = req.params;
+    await PurchasedBook.findOneAndDelete({ userId, bookId });
+    res.json({ success: true, message: "Book removed from your library" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 };

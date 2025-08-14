@@ -36,8 +36,13 @@ function Payment() {
     }
 
     try {
-      const orderData = await createOrder(book.price);
-      
+      const orderData = await createOrder(book.price, authUser._id, book._id);
+      // If free book, skip Razorpay popup
+      if (orderData.free) {
+        toast.success('Book added to your library for free!');
+        navigate('/my-books');
+        return;
+      }
       const options = {
         key: import.meta.env.VITE_RAZORPAY_KEY_ID, // Get from .env file
         amount: orderData.amount,
@@ -57,7 +62,7 @@ function Payment() {
             };
 
             const result = await verifyPayment(paymentData);
-            
+
             if (result.success) {
               toast.success('Payment successful! Book purchased.');
               navigate('/my-books');
@@ -89,26 +94,26 @@ function Payment() {
   if (!book) return null;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 p-4 md:py-10">
       <div className="max-w-md w-full bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
         <div className="p-4 sm:p-6">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-bold text-gray-800 dark:text-white">Checkout</h2>
-            <button 
+            <button
               onClick={() => navigate(-1)}
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
             >
               Cancel
             </button>
           </div>
-          
+
           <div className="border-t border-gray-200 dark:border-gray-700 my-4"></div>
-          
+
           <div className="flex items-center mb-6">
             <div className="h-20 w-16 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700">
-              <img 
-                src={book.image} 
-                alt={book.title} 
+              <img
+                src={book.image}
+                alt={book.title}
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -118,31 +123,31 @@ function Payment() {
             </div>
             <p className="text-base font-medium text-gray-800 dark:text-white">${book.price}</p>
           </div>
-          
+
           <div className="border-t border-gray-200 dark:border-gray-700 my-4"></div>
-          
+
           <div className="flex justify-between mb-2">
             <p className="text-sm text-gray-600 dark:text-gray-400">Subtotal</p>
             <p className="text-sm font-medium text-gray-800 dark:text-white">${book.price}</p>
           </div>
-          
+
           <div className="flex justify-between mb-2">
             <p className="text-sm text-gray-600 dark:text-gray-400">Taxes</p>
             <p className="text-sm font-medium text-gray-800 dark:text-white">$0.00</p>
           </div>
-          
+
           <div className="flex justify-between mb-6">
             <p className="text-base font-medium text-gray-800 dark:text-white">Total</p>
             <p className="text-base font-medium text-gray-800 dark:text-white">${book.price}</p>
           </div>
-          
+
           <button
             onClick={handlePayment}
             className="w-full bg-blue-600 py-3 px-4 rounded-md text-white font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
           >
             Pay with Razorpay
           </button>
-          
+
           <p className="mt-4 text-xs text-center text-gray-500 dark:text-gray-400">
             By completing this purchase, you agree to our Terms of Service and Privacy Policy.
           </p>

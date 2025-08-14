@@ -43,7 +43,7 @@ function BookReader() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-4">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-4 md:py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
           <div className="flex justify-between items-center mb-6">
